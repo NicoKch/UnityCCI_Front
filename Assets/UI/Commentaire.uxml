@@ -1,0 +1,6 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <ui:Button text="&#10;" name="MenuButton" style="height: 40px; width: 44px;" />
+    <ui:Label text="Commentaires" name="CommentsLabel" style="font-size: 40px; -unity-text-align: upper-center;" />
+    <ui:TextField placeholder-text="filler text" name="CommentsTextField" style="flex-direction: column; top: 40px;" />
+    <ui:Button text="Envoyer le commentaire" name="SendCommentButton" style="top: 50px;" />
+</ui:UXML>

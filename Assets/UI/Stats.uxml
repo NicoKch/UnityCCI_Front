@@ -1,0 +1,6 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <ui:Button name="MenuButton" style="height: 50px; width: 54px; background-color: rgb(28, 28, 28);" />
+    <ui:Label text="Statistiques" name="StatsLabel" style="font-size: 40px; -unity-font-style: bold; -unity-text-align: upper-center;" />
+    <ui:ProgressBar value="22" title="my-progress" name="Niveau" style="font-size: 20px; padding-bottom: 0;" />
+    <ui:ListView header-title="Statistiques" show-add-remove-footer="false" show-border="false" style="font-size: 20px; background-color: rgba(28, 28, 28, 0); color: rgb(199, 192, 192);" />
+</ui:UXML>
